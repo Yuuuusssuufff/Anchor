@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaTwitter, FaAppleAlt } from "react-icons/fa";
+import "../styles/footer.css";
 import Buttons from "./Buttons";
 
 const Footer = () => {
   return (
-    <div>
-     <Link to="/"><small>2021 @ spotify AB</small></Link>
+    <div className="footer">
+      <Link to="/">
+        <small>2021 @ spotify AB</small>
+      </Link>
       <ul>
         <li>
           <Link to="/features">career</Link>
@@ -36,7 +39,8 @@ const Footer = () => {
         </li>
       </ul>
       <div>
-        <Buttons path="/" anchorText='Go'/> 
+        <Buttons path="/" anchorText="Go" />
+        <Buttons path="/" anchorText="Come" />
       </div>
     </div>
   );

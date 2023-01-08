@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/image.css'
 
 const Image = ({imgSrc, imgAlt}) => {
   return (
-    <div>
+    <div className='imageClass'>
         <img src={imgSrc} alt={imgAlt} />
     </div>
   )

@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/introduction.css";
-import img1 from "../assets/anchor-hero-img-C1.webp";
+// import img1 from "../assets/anchor-hero-img-C1.webp";
 import Heading from '../components/Heading'
 import Info from "../components/Info"
 import Links from "../components/Buttons"
+import Image from '../components/Image.js'
+const {img1, img2, img3, img4, img5, img6, img7, img8 } = require('../assets/imageSource');
 const {info1} = require('../assets/texts')
 const Introduction = () => {
   return (
@@ -20,6 +22,7 @@ const Introduction = () => {
         </p>
       </div>
       <div className="img-section">
+        {/* <Image imgSrc={img1} imgAlt='"Photo_of_a_person_recording_podcast"'/>  */}
         <img src={img1} alt="Photo_of_a_person_recording_podcast" />
       </div>
     </div>

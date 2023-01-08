@@ -2,6 +2,7 @@ import React from "react";
 // import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
+import '../index.css'
 
 
 const Navbar = () => {

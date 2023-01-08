@@ -1,10 +1,14 @@
 import React from "react";
-import '../styles/cview.css'
+import Anchor from '../components/Anchor'
+import "../styles/cview.css";
 
-const CView = ({img, text}) => {
+const CView = ({ img, text, path, linkText }) => {
   return (
     <div className="all">
-      <div className="note_section"><p className="note">{text}</p></div>
+      <div className="note_section">
+        <p className="note">{text}</p>
+        <Anchor path={path} linkText={linkText}/>
+      </div>
       <div className="img_section">
         <img src={img} alt={img} />
       </div>
