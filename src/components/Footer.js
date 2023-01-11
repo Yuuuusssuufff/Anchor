@@ -39,8 +39,8 @@ const Footer = () => {
         </li>
       </ul>
       <div>
-        <Buttons path="/" anchorText="Go" />
-        <Buttons path="/" anchorText="Come" />
+        <Buttons path="/" anchorText="Log in" />
+        <Buttons path="/" anchorText="Sign up" />
       </div>
     </div>
   );
