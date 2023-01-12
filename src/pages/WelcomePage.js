@@ -6,7 +6,7 @@ import Heading from '../components/Heading'
 import Info from "../components/Info"
 import Links from "../components/Buttons"
 import Image from '../components/Image.js'
-const {img1, img2, img3, img4, img5, img6, img7, img8 } = require('../assets/imageSource');
+const {img1} = require('../assets/imageSource');
 const {info1} = require('../assets/texts')
 const Introduction = () => {
   return (

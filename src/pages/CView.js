@@ -6,8 +6,8 @@ const CView = ({ img, text, path, linkText }) => {
   return (
     <div className="all">
       <div className="note_section">
-        <p className="note">{text}</p>
-        <Anchor path={path} linkText={linkText}/>
+        <p className="note">{text}</p><span>
+        <Anchor path={path} linkText={linkText}/></span>
       </div>
       <div className="img_section">
         <img src={img} alt={img} />
