@@ -2,8 +2,8 @@ import React from "react";
 import Footer from "../components/Footer";
 import CView from "../pages/CView";
 import Introduction from "../pages/WelcomePage";
+import '../styles/cview.css'
 
-// import Navbar from "../components/Navbar";
 
 import EndNote from "../components/EndNote";
 import Header from "../components/Header";
