@@ -1,6 +1,6 @@
 import React from "react";
-import Anchor from '../components/Anchor'
-import "../styles/cview.css";
+import Anchor from '../../components/Anchor/Anchor'
+import "./cview.css";
 
 const CView = ({ img, text, path, linkText }) => {
   return (

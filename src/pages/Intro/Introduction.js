@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Heading from "../components/Heading";
-import Info from "../components/Info";
-import Image from "../components/Image"
-import Buttons from "../components/Buttons";
-import "../styles/introduction.css";
+import Heading from "../../components/Heading";
+import Info from "../../components/Info/Info";
+// import Image from "../../components/Image"
+import Buttons from "../../components/Buttons/Buttons";
+import "./introduction.css";
 
-const { img1, img6, img7 } = require("../assets/imageSource");
-const { info1 } = require("../assets/texts");
+const { img1, img6, img7 } = require("../../assets/imageSource");
+const { info1 } = require("../../assets/texts");
 
 const Introduction = () => {
   return (

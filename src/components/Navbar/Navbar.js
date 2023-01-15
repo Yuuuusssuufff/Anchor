@@ -2,8 +2,8 @@ import React from "react";
 // import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { Link } from "react-router-dom";
 import {FaGlobe} from 'react-icons/fa'
-import "../styles/navbar.css";
-import '../index.css'
+import "./navbar.css";
+// import '../index.css'
 
 
 const Navbar = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </li>
       </ul>
-      <ul>
+      <ul className="">
         <li>
           <Link to="/signin"></Link>
         </li>

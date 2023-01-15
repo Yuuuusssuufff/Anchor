@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import "../styles/introduction.css";
+import "./introduction.css";
 
 const Buttons = ({path, anchorText}) => {
   return (

@@ -1,0 +1,85 @@
+.introduction {
+  display: flex;
+  column-gap: 2rem;
+  box-sizing: border-box;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.switch_anchor {
+  font-size: 12px;
+  font-weight: 700;
+}
+.img-section {
+  width: 100%;
+}
+
+.img-section img {
+   padding: 2rem;
+}
+
+.introduction img {
+  object-fit: contain;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.info {
+  font-size: 26px;
+  font-weight: 700px;
+  padding: 2rem 0;
+}
+
+.sect_two {
+  display: flex;
+}
+
+.btn1 {
+  font-size: 16px;
+  color: black;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  padding: 10px 50px;
+  background-color: yellow;
+  text-decoration: none;
+  border-radius: 20px;
+  
+}
+.btn1 svg{
+  color: white;
+  height: 30px;
+  font-weight: 700;
+}
+
+.switch_anchor{
+  padding-top: 2rem;
+}
+/* 
+img {
+  width: 100%;
+  height: 100%;
+} */
+
+.intro h1 {
+  padding-top: 4rem;
+  flex-wrap: wrap;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 840px) {
+  .introduction {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .img_section {
+    margin-top: 2rem;
+  }
+}

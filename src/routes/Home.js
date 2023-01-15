@@ -1,14 +1,13 @@
 import React from "react";
-import Footer from "../components/Footer";
-import CView from "../pages/CView";
-import Introduction from "../pages/Introduction";
+import Footer from "../components/Footer/Footer";
+import CView from "../pages/Page1/CView";
+import Introduction from "../pages/Intro/Introduction";
+import EndNote from "../components/Endnote/EndNote";
+import Header from "../components/Header/Header";
+import LastPage from "../pages/Page2/LastPage";
+
 import '../app.css'
 import '../styles/cview.css'
-
-
-import EndNote from "../components/EndNote";
-import Header from "../components/Header";
-import LastPage from "../pages/LastPage";
 // import Buttons from "../components/Buttons";
 const {
   // img2,

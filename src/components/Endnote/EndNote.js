@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/endnote.css";
-import Anchor from "./Anchor";
-import Buttons from "./Buttons";
+import "./endnote.css";
+import Anchor from "../Anchor/Anchor";
+import Buttons from "../Buttons/Buttons";
 
 const EndNote = () => {
   return (

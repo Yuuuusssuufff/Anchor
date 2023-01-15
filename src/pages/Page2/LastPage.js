@@ -1,9 +1,9 @@
 import React from 'react'
-import { note5 } from '../assets/texts';
-import Buttons from '../components/Buttons';
-import '../styles/lastpage.css'
+import { note5 } from '../../assets/texts';
+import Buttons from '../../components/Buttons/Buttons';
+import './lastpage.css'
 
-import Info from '../components/Info';
+import Info from '../../components/Info/Info';
 
 const LastPage = ({ img, text, path, linkText, info }) => {
   return (

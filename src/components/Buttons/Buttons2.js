@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 // import {FaApple, FaAppStoreIos} from 'react-icons/fa'
 
-import "../styles/introduction.css";
+import "./introduction.css";
 
 const Buttons2 = ({path, anchorText, icon}) => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaFacebook, FaTwitter, FaApple, FaGooglePlay } from "react-icons/fa";
-import "../styles/footer.css";
+import "./footer.css";
 // import Buttons from "./Buttons";
-import Buttons2 from "./Buttons2";
+import Buttons2 from "../Buttons/Buttons2";
 
 const Footer = () => {
   return (
