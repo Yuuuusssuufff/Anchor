@@ -1,18 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 // import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { Link } from "react-router-dom";
-import {FaGlobe} from 'react-icons/fa'
+import { FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
-// import '../index.css'
-
 
 const Navbar = () => {
+const [click, setClick] = useState(false)
+const handleClick = () => setClick(!click)
+
+
   return (
     <div className="header">
-      <Link to="/">
-        <h1>Anchor</h1>
-      </Link>
-      <ul>
+      <div className="logo">
+        <Link to="/">Anchor</Link>
+      </div>
+      <ul className={click ? "navlinks.active" : "navlinks"}>
         <li>
           <Link to="/features">Features</Link>
         </li>
@@ -25,8 +27,7 @@ const Navbar = () => {
         <li>
           <Link to="/blog">Blog</Link>
         </li>
-      </ul>
-      <ul className="">
+        {/* <ul className=""> */}
         <li>
           <Link to="/signin"></Link>
         </li>
@@ -37,9 +38,16 @@ const Navbar = () => {
           <Link to="/signup">Sign up</Link>
         </li>
         <li>
-          <Link to="/signup"><FaGlobe/>EN</Link>
+          <Link to="/signup">
+            <FaGlobe />
+            EN
+          </Link>
         </li>
       </ul>
+      <div className="hamburger" onClick={handleClick}>
+        {click ?<FaBars size={30} style={{color:"#fff", position: "absolute", top: "0", right:"0", padding: "5px"}} />
+        :<FaTimes size={30} style={{color:"#fff", position: "absolute", top: "0", right:"0%", padding: "5px"}} />}
+      </div>
     </div>
   );
 };

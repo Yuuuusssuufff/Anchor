@@ -13,6 +13,7 @@
 .header ul {
   display: flex;
   list-style: none;
+  padding: 10px;
 }
 
 .header h1 {
@@ -33,10 +34,48 @@ a {
   color: white;
 }
 
+.logo a {
+  font-size: 2rem;
+  /* color: red; */
+  text-decoration: none;
+}
+.hamburger {
+  display: none;
+}
 
+@media screen and (max-width: 880px) {
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+  }
 
-@media screen and (max-width: 870px) {
-  .header {
-    
+  .navlinks {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: -100;
+    z-index: -3;
+    transition: 0.4s
+  }
+.navlinks.active{
+  left: 0;
+}
+
+  .header ul li {
+    padding: 1rem 0;
+  }
+  .header ul li {
+    font-size: 2rem;
+  }
+  .hamburger {
+    display: initial;
   }
 }
+
