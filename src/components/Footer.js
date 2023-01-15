@@ -39,7 +39,7 @@ const Footer = () => {
           </Link>
         </li>
       </ul>
-      <div>
+      <div className="footer_btn">
         <Buttons2 icon={<FaApple/>} path="/" anchorText="App store" />
         <Buttons2 icon={<FaGooglePlay/>}path="/" anchorText="Google play" />
       </div>
