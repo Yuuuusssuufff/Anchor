@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: row;
   position: fixed;
+  margin: 1rem;
   top: 0;
-  left: auto;
-  width: 80%;
+  left: 0;
+  width: 90%;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 2.5rem;
+  font-weight: 700;
 }
 .header ul {
   display: flex;
@@ -17,23 +18,21 @@
 .header h1 {
   font-size: 20px;
 }
-.header ul li {
-  padding: 0 1rem;
-}
+
 .header ul li a {
   padding: 0 1rem;
   text-decoration: none;
   color: white;
+  opacity: 0.8;
+  font-size: 12px;
 }
 
 a {
   color: white;
 }
-.header ul li a {
-  font-size: small;
-}
+
 @media screen and (max-width: 870px) {
   .header {
-    font-size: 12px;
+    
   }
 }

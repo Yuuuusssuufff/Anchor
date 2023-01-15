@@ -4,9 +4,9 @@ import '../styles/introduction.css'
 const Info = ({info}) => {
   return (
     <div>
-        <p className="info">
+        <h1 className="info">
          {info}
-        </p>
+        </h1>
     </div>
   )
 }

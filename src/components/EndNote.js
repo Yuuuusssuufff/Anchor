@@ -1,24 +1,32 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/endnote.css";
-import Anchor from './Anchor';
+import Anchor from "./Anchor";
+import Buttons from "./Buttons";
 
 const EndNote = () => {
   return (
-    <div className="introduction">
-      <div className="intro">
+    <div className="introduction1">
+      <div className="intro1">
         <h1>For everyone, everywhere, for free</h1>
-        <p className="note">
-        We believe everyone's stories can and should be heard, so we're giving creators around the world—from first-time podcasters to pros—a powerful platform to <Anchor path='/' linkText='share their voices'/>.
+        <p className="note1">
+          We believe everyone's stories can and should be heard, so we're giving
+          creators around the world—from first-time podcasters to pros—a
+          powerful platform to
+          
+            <Anchor path="/" linkText=" share their voices" />
+          
+          
         </p>
-        <Link to="/signup" className="btn1">Get started</Link>
-        <p className="switch_anchor">
+        <Buttons anchorText="Get started" path="/signup" className="btn"/>
+         
+        
+        <p className="switch_anchor1">
           Already have podcast? <Link to="/switch">Switch to Anchor</Link>
         </p>
       </div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default EndNote
+export default EndNote;

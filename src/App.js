@@ -7,10 +7,11 @@ import Features from './routes/Features';
 import Home from './routes/Home';
 import SignInPage from './routes/SignInPage';
 import SignUpPage from './routes/SignUpPage';
+import './app.css'
 
 function App() {
   return (
-    <div>
+    <div className='home'>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/features" element={<Features/>}/>
