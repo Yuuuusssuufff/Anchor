@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import CView from "../pages/CView";
 import Introduction from "../pages/Introduction";
+import '../app.css'
 import '../styles/cview.css'
 
 
@@ -22,7 +23,7 @@ const { txt1, txt2, txt3, txt4, txt5, note5 } = require("../assets/texts");
 
 const Home = () => {
   return (
-    <div > 
+    <div className="home"> 
       <Header />
       <Introduction />
      

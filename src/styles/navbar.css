@@ -23,6 +23,8 @@
   padding: 0 1rem;
   text-decoration: none;
   color: white;
+  display: flex;
+  column-gap: 5px;
   opacity: 0.8;
   font-size: 12px;
 }
@@ -30,6 +32,8 @@
 a {
   color: white;
 }
+
+
 
 @media screen and (max-width: 870px) {
   .header {
