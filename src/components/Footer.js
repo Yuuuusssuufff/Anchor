@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaFacebook, FaTwitter, FaAppleAlt } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTwitter, FaApple, FaAppStore } from "react-icons/fa";
 import "../styles/footer.css";
 import Buttons from "./Buttons";
+import Buttons2 from "./Buttons2";
 
 const Footer = () => {
   return (
@@ -39,8 +40,8 @@ const Footer = () => {
         </li>
       </ul>
       <div>
-        <Buttons path="/" anchorText="Log in" />
-        <Buttons path="/" anchorText="Sign up" />
+        <Buttons2 path="/" anchorText="App store" />
+        <Buttons path="/" anchorText="Google play" />
       </div>
     </div>
   );
