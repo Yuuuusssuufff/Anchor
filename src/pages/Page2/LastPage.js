@@ -1,17 +1,16 @@
-import React from 'react'
-import { note5 } from '../../assets/texts';
-import Buttons from '../../components/Buttons/Buttons';
-import './lastpage.css'
+import React from "react";
+import { note5 } from "../../assets/texts";
+import Buttons from "../../components/Buttons/Buttons";
+import "./lastpage.css";
 
-import Info from '../../components/Info/Info';
+import Info from "../../components/Info/Info";
 
 const LastPage = ({ img, text, path, linkText, info }) => {
   return (
     <div className="all">
       <div className="note_section">
         <div className="note">{text}</div>
-        <span>
-        <Info info={info}/></span>
+
         <p>{note5}</p>
         <Buttons path={path} anchorText={linkText} />
       </div>
@@ -22,4 +21,4 @@ const LastPage = ({ img, text, path, linkText, info }) => {
   );
 };
 
-export default LastPage
+export default LastPage;

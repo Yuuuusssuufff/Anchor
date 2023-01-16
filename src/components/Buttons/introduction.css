@@ -48,10 +48,11 @@
   justify-content: center;
   align-items: center;
   font-weight: 700;
-  padding: 10px 30px;
-  background-color: yellow;
+  padding: 10px;
+  /* background-color: yellow; */
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 24px;
+  line-height:normal;
   
 }
 .btn1 svg{

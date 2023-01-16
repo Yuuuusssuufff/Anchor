@@ -1,13 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 // import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { Link } from "react-router-dom";
 import { FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 
 const Navbar = () => {
-const [click, setClick] = useState(true)
-const handleClick = () => setClick(!click)
-
+  const [click, setClick] = useState(true);
+  const handleClick = () => setClick(!click);
 
   return (
     <div className="header">
@@ -27,7 +26,7 @@ const handleClick = () => setClick(!click)
         <li>
           <Link to="/blog">Blog</Link>
         </li>
-        {/* <ul className=""> */}
+
         <li>
           <Link to="/signin"></Link>
         </li>
@@ -37,7 +36,7 @@ const handleClick = () => setClick(!click)
         <li>
           <Link to="/signup">Sign up</Link>
         </li>
-        <li>
+        <li className="lang">
           <Link to="/signup">
             <FaGlobe />
             EN
@@ -45,8 +44,29 @@ const handleClick = () => setClick(!click)
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
-        {click ?<FaBars size={30} style={{color:"#fff", position: "absolute", top: "0", right:"0", padding: "5px"}} />
-        :<FaTimes size={30} style={{color:"#fff", position: "absolute", top: "0", right:"0%", padding: "5px"}} />}
+        {click ? (
+          <FaBars
+            size={30}
+            style={{
+              color: "#fff",
+              position: "absolute",
+              top: "0",
+              right: "0",
+              padding: "5px",
+            }}
+          />
+        ) : (
+          <FaTimes
+            size={30}
+            style={{
+              color: "#fff",
+              position: "absolute",
+              top: "0",
+              right: "0%",
+              padding: "5px",
+            }}
+          />
+        )}
       </div>
     </div>
   );
