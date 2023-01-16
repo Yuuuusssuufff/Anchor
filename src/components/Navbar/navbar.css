@@ -20,6 +20,8 @@
   font-size: 20px;
 }
 
+
+
 .header ul li a {
   padding: 0 1rem;
   text-decoration: none;
@@ -51,9 +53,12 @@ a {
     padding: 5px;
   }
 
+
+  
   .navlinks {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -62,20 +67,20 @@ a {
     top: 0;
     left: -100;
     z-index: -3;
-    transition: 0.4s
+    transition: 0.4s;
   }
-.navlinks.active{
-  left: 0;
-}
+  .navlinks.active {
+    left: 0;
+  }
+
+
 
   .header ul li {
     padding: 1rem 0;
-  }
-  .header ul li {
     font-size: 2rem;
   }
+
   .hamburger {
     display: initial;
   }
 }
-
