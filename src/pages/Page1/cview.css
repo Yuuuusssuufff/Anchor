@@ -1,5 +1,4 @@
 .all {
-  
   margin: 4rem 0;
   display: flex;
   column-gap: 2rem;
@@ -12,26 +11,27 @@
   display: inline;
   font-size: 12px;
 }
-.note_section{
+.note_section {
   width: 50%;
-
 }
 .note_section .note {
   font-size: 1.5rem;
 }
 
-.img_section img{
+.img_section img {
   width: 100%;
-  height: 100%;padding: 4rem;
+  height: 100%;
+  padding: 4rem;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 880px) {
   .all {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* color: blue; */
-    /* background-color: gray;     */
+  }
+  .note {
+    font-size: 28px;
   }
 }

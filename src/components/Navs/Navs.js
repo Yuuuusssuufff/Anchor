@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-// import finalPropsSelectorFactory from "react-redux/es/connect/selectorFactory";
 import { Link } from "react-router-dom";
 import { FaGlobe, FaBars, FaTimes } from "react-icons/fa";
-import "./navbar.css";
+import "./navs.css";
 
-const Navbar = () => {
-  const [click, setClick] = useState(true);
+const Navs = () => {
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   return (
-    <div className="header">
+    <div className="navs">
       <div className="logo">
         <Link to="/">Anchor</Link>
       </div>
-      <ul className={click ? "navlinks.active" : "navlinks"}>
+      <ul className={click ? "navlist.active" : "navlist"} >
+        
         <li>
           <Link to="/features">Features</Link>
         </li>
@@ -27,7 +27,6 @@ const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </li>
 
-        
         <li>
           <Link to="/signup">Sign in</Link>
         </li>
@@ -70,4 +69,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navs;
