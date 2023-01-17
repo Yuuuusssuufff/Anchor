@@ -76,7 +76,7 @@ img {
     font-weight: 700;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 880px) {
   .introduction {
     margin: 2rem 1rem;
     display: flex;
@@ -85,4 +85,30 @@ img {
   .img_section {
     margin-top: 2rem;
   }
+  .intro{
+    width: 100%
+  }
+  .btn1 {
+    font-size: 16px;
+    
+    color: black;
+    display: inline-block;
+    width: 100%;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 10px;
+    /* background-color: yellow; */
+    text-decoration: none;
+    border-radius: 24px;
+    line-height:normal;
+    
+  }
+  .btn1 svg{
+    color: white;
+    height: 30px;
+    font-weight: 700;
+  }
 }
+

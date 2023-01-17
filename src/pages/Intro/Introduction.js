@@ -13,7 +13,6 @@ const { info1 } = require("../../assets/texts");
 const Introduction = () => {
   return (
     <div className="introduction">
-      
       <div className="intro">
         <Heading title="Say it all with Anchor" />
         <Info info={info1} />
@@ -27,12 +26,6 @@ const Introduction = () => {
       <div className="img-section">
         <img src={img1} alt="Photo_of_a_person_recording_podcast" />
       </div>
-{/*       
-      <div className='sect_two'>
-        <Image imgSrc={img6} imgAlt='Phot of a reader'/>
-        <Image imgSrc={img7} imgAlt='Phot of a recorder'/>
-      </div> */}
-     
     </div>
   );
 };
