@@ -1,5 +1,5 @@
 import React from 'react'
-import Navs from '../components/Navs/Navs'
+import Navs from '../components/Molecules/Navs/Navs'
 
 const Blogs = () => {
   return (

@@ -1,0 +1,31 @@
+
+.all{
+  @apply bg-bgSecond bg-repeat-x
+}
+.inner{
+  @apply max-w-[87.5rem] my-0 mx-auto text-4xl text-white px-[10.9375rem] pt-0 pb-[5.46875rem]
+}
+.innermost{
+  @apply flex flex-row gap-11 max-h-[53.125rem] text-4xl;
+  ;
+}
+
+.note_section{
+  @apply self-center w-2/4
+}
+
+.note_section .note{
+  @apply text-4xl w-full leading-5 mb-8 font-normal w-full
+}
+
+.image_section{
+  @apply flex items-center self-center justify-center
+}
+
+.img-bgd{
+  @apply flex justify-center bg-[0,0,0,0.3] 
+}
+
+.img-bgd img{
+  @apply self-center items-center justify-center w-full h-full 
+}

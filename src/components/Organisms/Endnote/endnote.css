@@ -1,0 +1,48 @@
+.introduction1 {
+  @apply max-w-[87.5rem] my-0 mx-auto text-4xl text-white px-[10.9375rem] pt-0 pb-[5.46875rem];
+  /* display: grid;
+  grid-template-columns: 3fr 2fr; */
+  column-gap: 50px;
+
+}
+.intro1 {
+  width: 40rem;
+}
+
+.note1 {
+  width: 65%;
+  padding-bottom: 2rem;
+}
+.note1,
+.note1 a {
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: left;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 50px;
+  background-color: yellow;
+  color: black;
+  
+  border-radius: 20px;
+}
+.img_section1 {
+  width: 35%;
+}
+
+img {
+  object-fit: contain;
+}
+
+h1 {
+  flex-wrap: wrap;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.switch_anchor1 {
+  padding-top: 2rem;
+}

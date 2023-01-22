@@ -1,0 +1,43 @@
+.navbar {
+  @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full;
+}
+
+.navIn {
+  @apply flex justify-center items-center h-24 bg-transparent m-auto w-full;
+}
+
+.navInner {
+  @apply flex items-center justify-around w-full max-w-[87.5rem] h-24 px-[1.625rem] py-0;
+}
+
+.lastIn {
+  @apply flex w-full;
+}
+
+.log {
+  @apply flex items-center;
+}
+
+.options {
+  @apply flex flex-1 items-center justify-center my-0 mx-6;
+}
+
+.options a{
+  @apply px-4
+}
+
+.lastgrp {
+  @apply flex items-center justify-self-end whitespace-nowrap ;
+}
+
+.lastgrp a{
+  @apply px-4
+}
+/* 
+.lang{
+  @apply rounded-[31.25rem]
+} */
+
+.lang a{
+  @apply flex justify-center items-center rounded-[31.25rem] gap-x-1 border-2 border-[#7a4ea4]
+}

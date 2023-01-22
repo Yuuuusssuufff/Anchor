@@ -1,0 +1,40 @@
+
+ .introduction{
+  @apply bg-bgFirst bg-contain bg-no-repeat bg-left-bottom
+
+ }
+
+ .sections{
+  @apply grid max-w-[90rem] my-0 mx-auto text-base px-44 pt-0 pb-[5.47rem] text-white;
+  grid-template-columns: 40% 20% 40%;
+ }
+
+ .intro{
+  @apply grid row-start-1 row-end-1 col-start-1 col-end-1
+ }
+
+ .intro h1{
+  @apply text-[4.2rem] font-extrabold leading-[5rem] mx-0 mt-[9.375rem] mb-10 break-all
+ }
+
+ .switch_anchor{
+  @apply mt-6 mx-0 mb-[9.375rem] font-bold
+ }
+
+ .switch_anchor a{
+  @apply underline
+ }
+
+ .img-section{
+  @apply grid col-start-1 col-end-1 row-start-1 row-end-1 mt-[2.5rem] mr-[-15%] mb-0 ml-[20%] self-center justify-end
+ }
+
+ .imgShell{
+  @apply bg-[rgb(0,0,0,0.3)] relative pb-[167%] 
+ }
+
+ .image{
+  @apply absolute top-0 left-0 w-full h-full
+ }
+
+ 

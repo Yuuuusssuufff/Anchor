@@ -1,46 +1,9 @@
 *,
-::after,
-::before {
+*:after,
+*:before {
   box-sizing: border-box;
   margin: 0;
 }
-
-.app{
-  
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  
-}
-
-
-.home {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  row-gap: 10rem;
-  justify-content: center;
-  align-items: center;
-  
-  position: relative;
- 
-  margin-top: 4rem;
-  
-  width: 80%;
-}
-
-@media screen and (max-width:880px) {
-  .home{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    row-gap: 5rem;
-    
-  margin:0;
-    
-    width: 100%;
-  }
-  
+html,body{
+  @apply bg-[#24203f] text-white
 }

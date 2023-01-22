@@ -1,0 +1,37 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+import Heading from "../../Atoms/Heading";
+import Info from "../../Atoms/Info/Info";
+// import Image from "../../components/Image"
+import Buttons from "../../Atoms/Buttons/Buttons";
+import "./introduction.css";
+
+const { img1, img3, img2 } = require("../../../assets/imageSource");
+const { info1 } = require("../../../assets/texts");
+
+const Introduction = () => {
+  return (
+    <div className=" introduction">
+      <div className="sections">
+        <div className="intro">
+          <Heading title="Say it all with Anchor" />
+          <Info info={info1} />
+
+          <Buttons path="/signup" anchorText="Get started" />
+
+          <div className="switch_anchor">
+            Already have podcast? <Link to="/switch">Switch to Anchor</Link>
+          </div>
+        </div>
+        <div className="img-section">
+          <div className="imgShell">
+            <img src={img1} className='image' alt="Photo_of_a_person_recording_podcast" />
+            </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Introduction;
