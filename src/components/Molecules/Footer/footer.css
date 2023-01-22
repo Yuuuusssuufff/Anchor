@@ -53,7 +53,7 @@
 }
 
 .footer_btn{
-  @apply grid grid-flow-col gap-5 justify-center items-center h-8
+  @apply grid grid-flow-col gap-5 justify-center items-center h-8 mb-12
 }
 
 .footer_btn a{

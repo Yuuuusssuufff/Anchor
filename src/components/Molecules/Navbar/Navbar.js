@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="navInner">
           <div className=" flex flex-1">
             <div className="lastIn">
-              <div className="log">
+              <div className="logo">
                 <Link to="/">
                   <AnchorLogo />
                 </Link>

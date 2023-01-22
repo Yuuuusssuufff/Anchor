@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Heading from "../../Atoms/Heading";
 import Info from "../../Atoms/Info/Info";
-// import Image from "../../components/Image"
+
 import Buttons from "../../Atoms/Buttons/Buttons";
 import "./introduction.css";
 
