@@ -3,7 +3,7 @@
   @apply bg-bgSecond bg-repeat-x
 }
 .inner{
-  @apply max-w-[87.5rem] my-0 mx-auto text-4xl text-white px-[10.9375rem] pt-0 pb-[5.46875rem]
+  @apply max-w-[87.5rem] my-0 mx-auto text-4xl text-white  pt-0 pb-[5.46875rem]
 }
 .innermost{
   @apply flex flex-row gap-11 max-h-[53.125rem] text-4xl;

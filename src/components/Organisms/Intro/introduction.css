@@ -28,7 +28,7 @@
  }
 
  .img-section{
-  @apply grid col-start-1 col-end-1 row-start-1 row-end-1 mt-[2.5rem] mr-[-15%] mb-0 ml-[20%] self-center justify-end
+  @apply mt-[2.5rem] mr-[-15%] mb-0 ml-[20%] self-center justify-end
  }
 
  .imgShell{
@@ -39,4 +39,18 @@
   @apply absolute top-0 left-0 w-full h-full
  }
 
+ .img_sect2{
+    @apply flex items-start gap-16 ml-32
+ }
+
+ .img_sect2 .sect1{
+    @apply mt-[-2rem]
+ }
+
+
+ .img_sect2 .sect2{
+    @apply pt-20
+ }
+
  
+

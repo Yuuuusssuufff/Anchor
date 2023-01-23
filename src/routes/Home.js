@@ -18,7 +18,7 @@ const {
   img7,
   img8,
 } = require("../assets/imageSource");
-const { txt1, txt2, txt3, txt4, txt5, note5 } = require("../assets/texts");
+const { txt1, txt2, txt3, txt4, txt5, note5 } = require("../texts");
 
 const Home = () => {
   return (

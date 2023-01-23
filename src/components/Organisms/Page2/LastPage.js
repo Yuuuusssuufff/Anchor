@@ -1,5 +1,5 @@
 import React from "react";
-import { note5 } from "../../../assets/texts";
+import { note5 } from "../../../texts";
 import Buttons from "../../Atoms/Buttons/Buttons";
 import "./lastpage.css";
 

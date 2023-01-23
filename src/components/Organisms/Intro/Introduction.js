@@ -8,7 +8,7 @@ import Buttons from "../../Atoms/Buttons/Buttons";
 import "./introduction.css";
 
 const { img1, img3, img2 } = require("../../../assets/imageSource");
-const { info1 } = require("../../../assets/texts");
+const { info1 } = require("../../../texts");
 
 const Introduction = () => {
   return (
@@ -26,9 +26,17 @@ const Introduction = () => {
         </div>
         <div className="img-section">
           <div className="imgShell">
-            <img src={img1} className='image' alt="Photo_of_a_person_recording_podcast" />
-            </div>
+            <img
+              src={img1}
+              className="image"
+              alt="Photo_of_a_person_recording"
+            />
+          </div>
         </div>
+      </div>
+      <div className="img_sect2">
+        <img src={img2}  className="sect1" alt="photo of a person recording podcast"/>
+        <img src={img3}  className="sect2" alt="photo of a person recording pod"/>
       </div>
     </div>
   );
