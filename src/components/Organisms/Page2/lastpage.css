@@ -1,5 +1,5 @@
 .alls {
-  @apply bg-red-500;
+  /* @apply bg-red-500; */
 }
 
 .in {
@@ -21,29 +21,4 @@
 .note_section .note h3{
   @apply text-xl
   }
-/* 
-  .alls{
-    @apply bg-bgSecond bg-repeat-x flex justify-center items-center max-w-[87.5rem] my-0 mx-auto text-white  pt-0 pb-[5.46875rem]
-  }
 
-  .note_section{
-
-  }
-
-  .img_section{
-
-  }
-  
-  /* @media screen and (max-width: 840px) {
-    .all {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-          }
-  } */
-
-/* .all{
-@apply grid;
-  grid-template-columns: 40% calc(60% - 46px)
-} */

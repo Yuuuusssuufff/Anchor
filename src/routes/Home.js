@@ -7,7 +7,7 @@ import LastPage from "../components/Organisms/Page2/LastPage";
 import Navbar from "../components/Molecules/Navbar/Navbar";
 
 import '../app.css'
-import '../styles/cview.css'
+// import '../styles/cview.css'
 // import Buttons from "../components/Buttons";
 const {
   // img2,
