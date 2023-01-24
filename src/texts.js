@@ -2,7 +2,7 @@ const info1 =
   "'Spotify’s free podcasting platform—the easiest way to create, distribute,and monetize your show.'";
 
 const txt1 =
-  "Built-in uploading, recording, and editing tools</strong> so you can easily create and publish episodes.";
+  "Built-in uploading, recording, and editing tools so you can easily create and publish episodes.";
 
 const txt2 =
   "Distribute your podcast to the most popular listening apps, including Spotify with just a single tap — and host unlimited content completely free, forever.";

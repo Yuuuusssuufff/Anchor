@@ -20,6 +20,20 @@ const {
 } = require("../assets/imageSource");
 const { txt1, txt2, txt3, txt4, txt5, note5 } = require("../texts");
 
+
+const Info  = () => <><h2>Spotify’s free podcasting platform—the easiest way to create, distribute,and monetize your show.</h2></> 
+
+const Txt1 = ()=> <><h3><strong>Built-in uploading, recording, and editing tools</strong> so you can easily create and publish episodes.</h3></>
+const Txt2 = ()=> <><h3><strong>Distribute your podcast to the most popular listening apps, including Spotify with just a single tap</strong> — and host unlimited content completely free, forever.</h3></>
+
+const Txt3 = ()=> <><h3><strong>Unlock sponsorships or set up a subscription</strong> so you can make money as your audience grows.</h3></>
+
+const Txt4 = ()=> <><h3><strong>Advanced analytics and insights</strong> to help you understand and grow your audience.</h3></>
+
+const Txt5 = ()=> <><h3>Podcasting tips, creator stories, and Anchor news</h3></>
+
+const Note5 = ()=> <><p>Our blog, Word of Mouth, has everything you need to get started or take your show to the next level.</p></>
+
 const Home = () => {
   return (
     <div className="home"> 
@@ -28,32 +42,33 @@ const Home = () => {
      
       <CView
         img={img4}
-        text={txt1}
+        text={<Txt1/>}
         path="/"
         linkText="see all creation features"
       />
       <CView
         img={img5}
-        text={txt2}
+        text={<Txt2/>}
         path="/"
         linkText="see all hosting and distribution features"
       />
       <CView
         img={img6}
-        text={txt3}
+        text={<Txt3/>}
         path="/"
         linkText="see all monetization features"
       />
       <CView
         img={img7}
-        text={txt4}
+        text={<Txt4/>}
         path="/"
         linkText="see all analytic features"
       />
      
      <LastPage
         img={img8}
-        text={txt5}
+        text={<Txt5/>}
+        note={<Note5/>}
         path="/"
         linkText='See the latest'
         />

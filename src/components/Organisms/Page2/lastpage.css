@@ -1,46 +1,37 @@
-.all {
-  margin: 4rem 0;
-    display: flex;
-    column-gap: 2rem;
-    align-items: center;
-    justify-content: flex-start;
-    font-weight: 700;
-    line-height: 2rem;
+.alls {
+  @apply bg-red-500;
+}
 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 87.5rem;
-    padding-left: 10.9375rem;
-    padding-right: 10.9375rem;
-    padding-top: 0px;
-    padding-bottom: 5.46875rem;
-    /* font-size: 2.25rem; */
-    /* line-height: 2.5rem; */
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-   
+.in {
+  @apply justify-center items-center max-w-[87.5rem] my-0 mx-auto px-44 text-white  pt-0 pb-[5.46875rem];
+  display: flex;
+}
+
+.note_section{
+  @apply self-center w-2/4 font-normal
+}
+
+.note_section .note{
+  @apply  w-full font-normal w-full 
+}
+.note_section .note h3{
+@apply text-2xl font-bold
+}
+
+.note_section .note h3{
+  @apply text-xl
   }
-
-  .links {
-   
+/* 
+  .alls{
+    @apply bg-bgSecond bg-repeat-x flex justify-center items-center max-w-[87.5rem] my-0 mx-auto text-white  pt-0 pb-[5.46875rem]
   }
 
   .note_section{
-   
+
   }
 
-  .note_section p{
-   
-  }
+  .img_section{
 
-  .note_section .note {
-    
-  }
-  
-  .img_section img{
-   
   }
   
   /* @media screen and (max-width: 840px) {
@@ -51,7 +42,7 @@
       align-items: center;
           }
   } */
-  
+
 /* .all{
 @apply grid;
   grid-template-columns: 40% calc(60% - 46px)

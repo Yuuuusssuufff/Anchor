@@ -20,7 +20,7 @@
 
 
  .switch_anchor{
-  @apply mt-6 mx-0 mb-[9.375rem] font-bold
+  @apply mt-6 mx-0 mb-[9.375rem] text-xl font-bold
  }
 
  .switch_anchor a{
