@@ -20,6 +20,7 @@ const Navbar = () => {
                   <AnchorLogo />
                 </Link>
               </div>
+
               <div className="options">
                 <span>
                   <Link to="/features">Features</Link>
@@ -48,32 +49,32 @@ const Navbar = () => {
                   </Link>
                 </span>
               </div>
+            </div>
 
-              <div className="hamburger" onClick={handleClick}>
-                {click ? (
-                  <FaBars
-                    size={30}
-                    style={{
-                      color: "#fff",
-                      position: "absolute",
-                      top: "0",
-                      right: "0",
-                      padding: "5px",
-                    }}
-                  />
-                ) : (
-                  <FaTimes
-                    size={30}
-                    style={{
-                      color: "#fff",
-                      position: "absolute",
-                      top: "0",
-                      right: "0%",
-                      padding: "5px",
-                    }}
-                  />
-                )}
-              </div>
+            <div className="hamburger" onClick={handleClick}>
+              {click ? (
+                <FaBars
+                  size={30}
+                  style={{
+                    color: "#fff",
+                    position: "absolute",
+                    top: "1.5rem",
+                    right: "1.5rem",
+                    padding: "5px",
+                  }}
+                />
+              ) : (
+                <FaTimes
+                  size={30}
+                  style={{
+                    color: "#fff",
+                    position: "absolute",
+                    top: "1.5rem",
+                    right: "1.5rem",
+                    padding: "5px",
+                  }}
+                />
+              )}
             </div>
           </div>
         </div>

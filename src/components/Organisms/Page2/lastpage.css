@@ -7,18 +7,17 @@
   display: flex;
 }
 
-.note_section{
-  @apply self-center w-2/4 font-normal
+.note_section {
+  @apply self-center w-2/4 font-normal;
 }
 
-.note_section .note{
-  @apply  w-full font-normal w-full 
+.note_section .note {
+  @apply w-full font-normal w-full;
 }
-.note_section .note h3{
-@apply text-2xl font-bold
+.note_section .note {
+  @apply leading-normal text-4xl font-bold;
 }
 
-.note_section .note h3{
+.note_section p {
   @apply text-xl
-  }
-
+}

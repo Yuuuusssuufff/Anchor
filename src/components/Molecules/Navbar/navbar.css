@@ -9,6 +9,9 @@
 .navInner {
   @apply flex items-center justify-around w-full max-w-[87.5rem] h-24 px-[1.625rem] py-0;
 }
+.navoptions{
+  @apply flex md:invisible
+}
 
 .lastIn {
   @apply flex w-full;
@@ -18,34 +21,36 @@
   @apply flex items-center;
 }
 
-.logo svg{
-  @apply h-52
+.logo svg {
+  @apply h-52;
 }
 
 .options {
-  @apply flex flex-1 items-center justify-center my-0 mx-6 ;
+  @apply flex flex-1 items-center justify-center my-0 mx-6;
 }
 
-.options a{
-  @apply px-4 text-[1.125rem]
+.options a {
+  @apply px-4 text-[1.125rem];
 }
 
-.lastgrp {
-  @apply flex items-center justify-self-end whitespace-nowrap ;
+.lastgrp  {
+  @apply flex items-center justify-self-end whitespace-nowrap;
+}
+.options, .lastgrp{
+  @apply invisible md:visible
 }
 
-.lastgrp a{
-  @apply px-4
-}
-/* 
-.lang{
-  @apply rounded-[31.25rem]
-} */
 
-.lang a{
-  @apply flex justify-center items-center rounded-[31.25rem] gap-x-1 border-2 border-[#7a4ea4]
+
+
+.lastgrp a {
+  @apply px-4;
 }
 
-.hamburger{
-  @apply invisible
+.lang a {
+  @apply flex justify-center items-center rounded-[31.25rem] gap-x-1 border-2 border-[#7a4ea4];
+}
+
+.hamburger {
+  @apply visible md:invisible;
 }

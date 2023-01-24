@@ -4,7 +4,7 @@
 }
 
 .footer a{
-  @apply text-xs;
+  @apply text-base;
 }
 
 .spotify {
@@ -20,7 +20,8 @@
 }
 
 .footer_btn {
-  @apply grid grid-flow-col gap-5 justify-center items-center h-8 mb-14;
+  @apply inline-flex items-center justify-center font-bold p-[0.75rem_1rem] gap-6 text-base leading-4 rounded-3xl border-[#dfe0e1_2px_solid]
+   h-8 ;
 }
 
 .footer_btn a {

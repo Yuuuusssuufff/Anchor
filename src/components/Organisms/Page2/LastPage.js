@@ -9,6 +9,7 @@ const LastPage = ({ img, text, path, linkText, note}) => {
   return (
     <div className="alls">
       <div className="in">
+        
         <div className="note_section">
           <div className="note">{text}</div>
 

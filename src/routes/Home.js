@@ -30,7 +30,7 @@ const Txt3 = ()=> <><h3><strong>Unlock sponsorships or set up a subscription</st
 
 const Txt4 = ()=> <><h3><strong>Advanced analytics and insights</strong> to help you understand and grow your audience.</h3></>
 
-const Txt5 = ()=> <><h3>Podcasting tips, creator stories, and Anchor news</h3></>
+const Txt5 = ()=> <div>Podcasting tips, creator stories, and Anchor news</div>
 
 const Note5 = ()=> <><p>Our blog, Word of Mouth, has everything you need to get started or take your show to the next level.</p></>
 
