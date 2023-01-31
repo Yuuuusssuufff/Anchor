@@ -1,5 +1,8 @@
-.navbar {
+.navbar, .navbar.active {
   @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full;
+}
+
+.navbar.active {
 }
 
 .navIn {
@@ -8,9 +11,6 @@
 
 .navInner {
   @apply flex items-center justify-around w-full max-w-[87.5rem] h-24 px-[1.625rem] py-0;
-}
-.navoptions{
-  @apply flex md:invisible
 }
 
 .lastIn {
@@ -25,7 +25,7 @@
   @apply h-52;
 }
 
-.options {
+.options{
   @apply flex flex-1 items-center justify-center my-0 mx-6;
 }
 
@@ -33,15 +33,18 @@
   @apply px-4 text-[1.125rem];
 }
 
-.lastgrp  {
+.lastgrp {
   @apply flex items-center justify-self-end whitespace-nowrap;
 }
-.options, .lastgrp{
-  @apply invisible md:visible
+.options,
+.lastgrp {
+  /* @apply invisible  md:visible; */
 }
 
-
-
+.options.active,
+.lastgrp.active {
+  @apply flex left-0 top-[50%] absolute text-white z-10
+}
 
 .lastgrp a {
   @apply px-4;

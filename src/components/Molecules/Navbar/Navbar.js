@@ -21,7 +21,7 @@ const Navbar = () => {
                 </Link>
               </div>
 
-              <div className="options">
+              <div className={click ? "options" : "options.active"}>
                 <span>
                   <Link to="/features">Features</Link>
                 </span>
@@ -35,7 +35,7 @@ const Navbar = () => {
                   <Link to="/blog">Blog</Link>
                 </span>
               </div>
-              <div className="lastgrp">
+              <div className={click ? "lastgrp" : "lastgrp.active"}>
                 <span>
                   <Link to="/signup">Sign in</Link>
                 </span>
