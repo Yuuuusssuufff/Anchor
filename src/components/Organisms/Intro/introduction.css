@@ -5,16 +5,17 @@
  }
 
  .sections{
-  @apply flex flex-col max-w-[90rem] my-0 mx-auto text-base px-44 pt-0 pb-[5.47rem] text-white;
-  ;
+  @apply flex max-md:flex-col max-md:max-w-full max-md:max-w-[55rem] max-w-[90rem] my-0 mx-auto text-base px-44 pt-0 pb-[5.47rem] text-white max-md:px-8;
+  
  }
 
  .intro{
-  @apply flex flex-col max-w-[55%]
+  @apply flex flex-col w-full max-w-[55%] 
+  max-md:max-w-full
  }
 
  .intro h1{
-  @apply text-[5rem] font-extrabold leading-[5rem] mx-0 mt-[9.375rem] mb-10
+  @apply text-[5rem] font-extrabold leading-[5rem] mx-0 max-md:text-5xl mt-[9.375rem] mb-10
  }
 
 
@@ -29,18 +30,15 @@
 
  .img-section{
   @apply mt-[2.5rem] mr-[-15%] mb-0 ml-[20%] self-center justify-end
- }
+ } 
 
  .imgShell{
-  @apply bg-[rgb(0,0,0,0.3)] relative pb-[167%] 
- }
-
- .image{
-  @apply absolute top-0 left-0 w-full h-full
+  @apply bg-[rgb(0,0,0,0.3)] relative 
+  /* pb-[167%]  */
  }
 
  .img_sect2{
-    @apply flex items-start gap-16 ml-32
+    @apply flex items-start gap-24 ml-32 max-md:flex-col
  }
 
  .img_sect2 .sect1{

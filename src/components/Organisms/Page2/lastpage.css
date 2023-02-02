@@ -1,9 +1,8 @@
-.alls {
-  /* @apply bg-red-500; */
-}
+
 
 .in {
-  @apply grid grid-cols-[1fr_1fr]  self-center justify-center items-start max-w-[87.5rem] my-0 mx-auto px-44 gap-20 text-white  pt-0 pb-[5.46875rem];
+  /* @apply grid grid-cols-[1fr_1fr] */
+    @apply flex self-center justify-center items-start max-w-[87.5rem] my-0 mx-auto px-44 max-md:max-w-[55rem] max-md:flex-col max-md:px-8 gap-20 text-white  pt-0 pb-[5.46875rem];
  
 }
 

@@ -14,6 +14,8 @@ import Buttons2 from "../../Atoms/Buttons/Buttons2";
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="sets">
+
       <div className="spotify">
 
       <Link to="/">
@@ -21,15 +23,16 @@ const Footer = () => {
       </Link>
       </div>
       <div className="feat">
-        <span>
+        <span className="max-md:invisible">
           <Link to="/features">career</Link>
         </span>
         <span>
-          <Link to="/switch">legal</Link>
+          <Link to="/switch">Legal</Link>
         </span>
-        <span>
+        <span className="max-md:invisible">
           <Link to="/ads">help</Link>
         </span>
+      </div>
       </div>
       <div className="soc">
         <span>

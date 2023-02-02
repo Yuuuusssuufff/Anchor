@@ -27,16 +27,19 @@ const Introduction = () => {
         <div className="img-section">
           <div className="imgShell">
             <img
-              src={img1}
-              className="image"
+              src="https://d12xoj7p9moygp.cloudfront.net/images/home/hero/hero-img-C1.webp"
               alt="Photo_of_a_person_recording"
             />
           </div>
         </div>
       </div>
       <div className="img_sect2">
-        <img src={img2}  className="sect1" alt="photo of a person recording podcast"/>
-        <img src={img3}  className="sect2" alt="photo of a person recording pod"/>
+        <img src={img2} className="sect1" alt="a person recording podcast" />
+        <img
+          src="https://d12xoj7p9moygp.cloudfront.net/images/home/hero/hero-img-C3.webp"
+          className="sect2"
+          alt="a person recording pod"
+        />
       </div>
     </div>
   );

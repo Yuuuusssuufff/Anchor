@@ -3,15 +3,15 @@
   @apply flex bg-bgSecond bg-repeat-x
 }
 .inner{
-  @apply  flex max-w-[87.5rem] my-0 mx-auto px-44 text-white  pt-0 pb-[5.46875rem]
+  @apply  flex max-md:max-w-[55rem] max-w-[87.5rem] my-0 mx-auto px-44 text-white  pt-0 pb-[5.46875rem] max-md:mx-0 max-md:px-8
 }
 .innermost{
-  @apply flex flex-row gap-11 max-h-[53.125rem];
+  @apply flex max-md:flex-col flex-row gap-11 max-h-[53.125rem];
   ;
 }
 
 .note-section{
-  @apply self-center w-2/4 font-normal
+  @apply self-center w-2/4 max-md:w-full font-normal
 }
 
 .note-section .note{

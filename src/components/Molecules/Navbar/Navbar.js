@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaGlobe, FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
+import Buttons from "../../Atoms/Buttons/Buttons"
 import AnchorLogo from "../../Vector/AnchorLogo";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className="navIn">
         <div className="navInner">
           <div className=" flex flex-1">
-            <div className="lastIn">
+            <div className={click?"lastIn" :"lastIn.active"}>
               <div className="logo">
                 <Link to="/">
                   <AnchorLogo />
@@ -48,6 +49,12 @@ const Navbar = () => {
                     EN
                   </Link>
                 </span>
+                <div className="hidden">
+
+                <Buttons path="/" anchorText="Sign up" />
+                <Buttons path="/" anchorText="Sign in" />
+
+                </div>
               </div>
             </div>
 

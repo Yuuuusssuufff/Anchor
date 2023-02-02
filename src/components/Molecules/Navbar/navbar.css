@@ -1,9 +1,8 @@
-.navbar, .navbar.active {
-  @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full;
+.navbar {
+  @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full ;
 }
 
-.navbar.active {
-}
+
 
 .navIn {
   @apply flex justify-center items-center h-24 bg-transparent m-auto w-full;
@@ -16,6 +15,9 @@
 .lastIn {
   @apply flex w-full;
 }
+/* .lastIn.active{
+  @apply flex h-screen absolute bg-white top-0 left-0  
+} */
 
 .logo {
   @apply flex items-center;
@@ -26,11 +28,11 @@
 }
 
 .options{
-  @apply flex flex-1 items-center justify-center my-0 mx-6;
+  @apply flex flex-1 items-center justify-center my-0 mx-6 md:text-right;
 }
 
 .options a {
-  @apply px-4 text-[1.125rem];
+  @apply px-4 font-bold text-[1.125rem];
 }
 
 .lastgrp {
@@ -38,12 +40,12 @@
 }
 .options,
 .lastgrp {
-  /* @apply invisible  md:visible; */
+  @apply max-md:hidden
 }
 
 .options.active,
 .lastgrp.active {
-  @apply flex left-0 top-[50%] absolute text-white z-10
+  @apply flex bg-red-500 absolute text-white text-5xl
 }
 
 .lastgrp a {
@@ -51,9 +53,11 @@
 }
 
 .lang a {
-  @apply flex justify-center items-center rounded-[31.25rem] gap-x-1 border-2 border-[#7a4ea4];
+  @apply flex justify-center items-center rounded-[31.25rem] gap-x-1 border-2 border-[#7a4ea4] max-md:border-none max-md:inline-flex max-md:justify-start max-md:items-center;
 }
 
 .hamburger {
-  @apply visible md:invisible;
+  @apply visible md:hidden;
 }
+
+

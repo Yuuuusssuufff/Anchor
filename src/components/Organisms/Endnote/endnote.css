@@ -1,7 +1,6 @@
 .introduction1 {
-  @apply max-w-[87.5rem] my-0 mx-auto text-4xl text-white px-[10.9375rem] pt-0 pb-[5.46875rem];
-  /* display: grid;
-  grid-template-columns: 3fr 2fr; */
+  @apply max-w-[87.5rem] max-md:max-w-[55rem] max-md:px-8 my-0 mx-auto text-4xl text-white px-[10.9375rem]  pt-0 pb-[5.46875rem];
+
   column-gap: 50px;
 
 }

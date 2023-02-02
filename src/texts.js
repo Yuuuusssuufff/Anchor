@@ -1,5 +1,5 @@
 const info1 =
-  "'Spotify’s free podcasting platform—the easiest way to create, distribute,and monetize your show.'";
+  "'Spotify’s free podcasting platform—the easiest way to create, distribute, and monetize your show.'";
 
 const txt1 =
   "Built-in uploading, recording, and editing tools so you can easily create and publish episodes.";
