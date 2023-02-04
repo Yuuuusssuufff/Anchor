@@ -71,6 +71,6 @@
 }
 
 .sect-but{
-  @apply  flex-col w-full max-md:flex px-8 md:hidden max-md:absolute max-md:left-0 max-md:bottom-[25%]
+  @apply  flex-col w-full max-md:flex px-8 md:hidden max-md:absolute max-md:left-0 max-md:bottom-[10%]
 }
 
