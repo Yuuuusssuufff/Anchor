@@ -8,7 +8,7 @@ const EndNote = () => {
   return (
     <div className="introduction1">
       <div className="intro1">
-        <h1>For everyone, everywhere, for free</h1>
+        <h2>For everyone, everywhere, for free</h2>
         <div className="note1">
           We believe everyone's stories can and should be heard, so we're giving
           creators around the world—from first-time podcasters to pros—a

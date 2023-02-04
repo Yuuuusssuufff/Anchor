@@ -7,22 +7,27 @@ import Buttons from "../../Atoms/Buttons/Buttons"
 import AnchorLogo from "../../Vector/AnchorLogo";
 
 const Navbar = () => {
-  const [click, setClick] = useState(true);
+  const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar"
+    // {click ?"navbar" :"navbar-active"}
+    >
       <div className="navIn">
         <div className="navInner">
           <div className=" flex flex-1">
-            <div className={click?"lastIn" :"lastIn.active"}>
+            <div className=
+            {click?"lastIn-active" :"lastIn"}
+            >
+             
               <div className="logo">
                 <Link to="/">
                   <AnchorLogo />
                 </Link>
               </div>
 
-              <div className={click ? "options" : "options.active"}>
+              <div className= "options">
                 <span>
                   <Link to="/features">Features</Link>
                 </span>
@@ -36,12 +41,12 @@ const Navbar = () => {
                   <Link to="/blog">Blog</Link>
                 </span>
               </div>
-              <div className={click ? "lastgrp" : "lastgrp.active"}>
+              <div className= "lastgrp">
                 <span>
-                  <Link to="/signup">Sign in</Link>
+                  <Link to="/signup">{click?"Sign in":"Careers"}</Link>
                 </span>
                 <span>
-                  <Link to="/signup">Sign up</Link>
+                  <Link to="/signup">{click ?"Sign up": "Help"}</Link>
                 </span>
                 <span className="lang">
                   <Link to="/signup">
@@ -49,28 +54,17 @@ const Navbar = () => {
                     EN
                   </Link>
                 </span>
-                <div className="hidden">
+              </div>
+              {click &&   <div className="sect-but">
 
                 <Buttons path="/" anchorText="Sign up" />
                 <Buttons path="/" anchorText="Sign in" />
 
-                </div>
-              </div>
+                </div>}
             </div>
 
             <div className="hamburger" onClick={handleClick}>
               {click ? (
-                <FaBars
-                  size={30}
-                  style={{
-                    color: "#fff",
-                    position: "absolute",
-                    top: "1.5rem",
-                    right: "1.5rem",
-                    padding: "5px",
-                  }}
-                />
-              ) : (
                 <FaTimes
                   size={30}
                   style={{
@@ -80,7 +74,18 @@ const Navbar = () => {
                     right: "1.5rem",
                     padding: "5px",
                   }}
+                />)
+                :(<FaBars
+                  size={30}
+                  style={{
+                    color: "#fff",
+                    position: "absolute",
+                    top: "1.5rem",
+                    right: "1.5rem",
+                    padding: "5px",
+                  }}
                 />
+              
               )}
             </div>
           </div>

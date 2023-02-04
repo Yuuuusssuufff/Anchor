@@ -1,18 +1,20 @@
 .introduction1 {
-  @apply max-w-[87.5rem] max-md:max-w-[55rem] max-md:px-8 my-0 mx-auto text-4xl text-white px-[10.9375rem]  pt-0 pb-[5.46875rem];
+  @apply max-w-[87.5rem] max-md:max-w-[55rem] max-md:px-8 my-0 mx-0 text-4xl text-white px-[10.9375rem]  pt-0 pb-[5.46875rem];
 
   column-gap: 50px;
 
 }
 .intro1 {
-  width: 40rem;
+  @apply w-[40rem]  max-md:w-full ;
+}
+.intro1 h2{
+  @apply text-5xl font-bold ;
 }
 
+
 .note1 {
-  @apply leading-normal;
-  width: 65%;
-  padding-bottom: 2rem;
-}
+  @apply leading-normal w-[65%] pb-8 max-md:w-full;
+ }
 .note1,
 .note1 a {
 
@@ -49,7 +51,9 @@ h1 {
   @apply text-xl font-bold;
   padding-top: 2rem;
 }
-
+.links a {
+  @apply inline
+}
 
 .switch_anchor1 a{
   @apply underline

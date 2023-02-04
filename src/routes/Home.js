@@ -7,21 +7,18 @@ import LastPage from "../components/Organisms/Page2/LastPage";
 import Navbar from "../components/Molecules/Navbar/Navbar";
 
 import '../app.css'
-// import '../styles/cview.css'
-// import Buttons from "../components/Buttons";
 const {
-  // img2,
-  // img3,
+  
   img4,
   img5,
   img6,
   img7,
   img8,
 } = require("../assets/imageSource");
-const { txt1, txt2, txt3, txt4, txt5, note5 } = require("../texts");
 
 
-const Info  = () => <><h2>Spotify’s free podcasting platform—the easiest way to create, distribute,and monetize your show.</h2></> 
+
+
 
 const Txt1 = ()=> <><h3><strong>Built-in uploading, recording, and editing tools</strong> so you can easily create and publish episodes.</h3></>
 const Txt2 = ()=> <><h3><strong>Distribute your podcast to the most popular listening apps, including Spotify with just a single tap</strong> — and host unlimited content completely free, forever.</h3></>

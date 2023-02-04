@@ -1,8 +1,10 @@
 .navbar {
-  @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full ;
+  @apply flex fixed bg-transparent z-[3] shadow-none h-24 w-full 
 }
 
-
+.navbar-active{
+  /* @apply max-md:flex flex-wrap max-md:h-screen max-md:absolute max-md:bg-black max-md:top-0 max-md:left-0 max-md:w-screen */
+}
 
 .navIn {
   @apply flex justify-center items-center h-24 bg-transparent m-auto w-full;
@@ -12,15 +14,18 @@
   @apply flex items-center justify-around w-full max-w-[87.5rem] h-24 px-[1.625rem] py-0;
 }
 
-.lastIn {
-  @apply flex w-full;
+.lastIn, .lastIn-active {
+  @apply flex w-full max-md:absolute max-md:top-0  max-md:w-full max-md:h-screen max-md:flex-col max-md:bg-black max-md:items-center;
 }
-/* .lastIn.active{
-  @apply flex h-screen absolute bg-white top-0 left-0  
-} */
+.lastIn{
+  @apply max-md:left-[-100%]
+}
 
+.lastIn-active{
+  @apply max-md:left-0
+}
 .logo {
-  @apply flex items-center;
+  @apply flex items-center max-md:top-[-4rem] left-8 max-md:absolute;
 }
 
 .logo svg {
@@ -28,28 +33,33 @@
 }
 
 .options{
-  @apply flex flex-1 items-center justify-center my-0 mx-6 md:text-right;
+  @apply flex flex-1 items-center max-md:flex-wrap  justify-center my-0 max-md:absolute max-md:left-0 max-md:top-20 mx-6 max-md:items-start max-md:flex-col max-md:text-[#b9b4d9] max-md:text-[1.75rem] max-md:font-extrabold;
 }
 
 .options a {
-  @apply px-4 font-bold text-[1.125rem];
+  @apply px-4 font-bold text-[1.125rem] max-md:text-[1.75rem] max-md:font-extrabold;
 }
 
 .lastgrp {
-  @apply flex items-center justify-self-end whitespace-nowrap;
+  @apply flex items-center justify-self-end whitespace-nowrap max-md:flex-col max-md:items-start max-md:absolute max-md:left-6 max-md:top-64 max-md:text-[#b9b4d9]
 }
-.options,
+/* .options,
 .lastgrp {
   @apply max-md:hidden
-}
+} */
 
-.options.active,
-.lastgrp.active {
-  @apply flex bg-red-500 absolute text-white text-5xl
-}
+/* .options_active {
+  @apply  flex text-2xl gap-2 flex-wrap font-bold text-[#b9b4d9] text-[1.75rem] leading-5
+  
+} */
+
+
+/* .lastgrp_active {
+  @apply  flex text-base gap-8 
+} */
 
 .lastgrp a {
-  @apply px-4;
+  @apply px-4 max-md:text-[1.25rem] max-md:font-normal;
 }
 
 .lang a {
@@ -60,4 +70,7 @@
   @apply visible md:hidden;
 }
 
+.sect-but{
+  @apply  flex-col w-full max-md:flex md:hidden max-md:absolute max-md:left-0 max-md:bottom-[25%]
+}
 
