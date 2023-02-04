@@ -1,6 +1,6 @@
 
 .all{
-  @apply flex bg-bgSecond bg-repeat-x
+  @apply flex bg-bgSecond bg-repeat-x my-24
 }
 .inner{
   @apply  flex max-md:max-w-[55rem] max-w-[87.5rem] my-0 mx-auto px-44 text-white  pt-0 pb-[5.46875rem] max-md:mx-0 max-md:px-8
